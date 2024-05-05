@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body style="place-items: center;">
+    <header>
+        <a class="logo" href="./index.html">
+            <img src="./img/LOGO-FINAL-1A1A1A.png" alt="Logotipo de la tienda">
+        </a>
+        <nav>
+            <a href="./index.html">Inicio</a>
+            <a href="./products.html">Productos</a>
+            <a href="./about.html">Nuestra Historia</a>
+            <a class="active" href="./contact.html">Contacto</a>
+        </nav>
+        <form action="#">
+            <input class="form" type="text" placeholder="Buscar productos">
+            <button type="submit">Buscar</button>
+        </form>
+    </header>
+    <div class="coleccion">
+        <h1>CONTACTO</h1>
+    </div>
+    <section>
+
+        <div class="contact_form">
+
+            <div class="formulario">
+                <h1>Formulario de contacto</h1>
+                <h3>Te esperamos... ¡Date prisa!</h3>
+
+
+                <form action="" method="post">
+
+
+                    <p>
+                        <label for="nombre" class="colocar_nombre">Nombre
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input required type="text" name="introducir_nombre" id="nombre" required="obligatorio"
+                            placeholder="Escribe tu nombre">
+                    </p>
+
+                    <p>
+                        <label for="email" class="colocar_email">Email
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input required type="email" name="introducir_email" id="email" required="obligatorio"
+                            placeholder="Escribe tu Email">
+                    </p>
+
+                    <p>
+                        <label for="asunto" class="colocar_asunto">Asunto
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <input required type="text" name="introducir_asunto" id="assunto" required="obligatorio"
+                            placeholder="Escribe un asunto">
+                    </p>
+
+                    <p>
+                        <label for="mensaje" class="colocar_mensaje">Mensaje
+                            <span class="obligatorio">*</span>
+                        </label>
+                        <textarea required name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
+                            placeholder="Deja aquí tu comentario..."></textarea>
+                    </p>
+
+                    <button type="submit" name="enviar_formulario" id="enviar">
+                        Enviar
+                    </button>
+
+                    <p class="aviso">
+                        <span class="obligatorio"> * </span>los campos son obligatorios.
+                    </p>
+
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="newsletter">
+            <h1>¡Suscríbete a nuestra newsletter!</h1>
+            <p>Recibe las últimas novedades, ofertas especiales y actualizaciones directamente en tu bandeja de entrada.
+            </p>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Introduce tu correo electrónico" class="email-input"
+                    required>
+                <button type="submit" class="cta-button">Suscribirse</button>
+            </form>
+                <p>PD: <b>Puedes</b> cancelar
+                        tu suscripción <b>en cualquier momento</b>.</p>
+        </div>
+    </section>
+    <footer>
+        <div class="contacto">
+            <h2>Contacto</h2>
+            <p>Dirección: Calle 123, Ciudad</p>
+            <p>Teléfono: 123-456-7890</p>
+            <p>Correo electrónico: info@tiendaenlinea.com</p>
+        </div>
+        <div class="redes-sociales">
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+            </ul>
+        </div>
+        <p>Copyright &copy; Tienda en línea 2023</p>
+    </footer>
+</body>
+
+</html>
